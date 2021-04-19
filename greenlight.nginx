@@ -41,4 +41,4 @@ location ~ /preupload_presentation$ {
 
 location /rails/active_storage {
   return 301 /b$request_uri;
-}
+docker exec greenlight-v2 bundle exec rake user:create["montazar","montazar15125@gmail.com","12341234","admin"]
